@@ -32,7 +32,6 @@ Cílem projektu je procvičit si použití různých technik:
 
 
 ## Grafické zadání
-
 Jak vypadá rozložení kontaktů pro mobil, tablet a počítač najdeš na obrázku *zadani-ukolu.png*. Konkrétní rozměry prvků, padding nebo jaký přesně mají pod sebou kartičky stín není důležité. Odhadni je od oka, aby vše vypadalo podobně jako na obrázku.
 
 Kde jsou jednotlivé breakpointy najdeš i v komentáři v souboru *style.css*.
@@ -41,7 +40,6 @@ Kde jsou jednotlivé breakpointy najdeš i v komentáři v souboru *style.css*.
 
 
 ## Obtížnosti úkolu
-
 Zadání tohoto projektu je vytvořeno ve dvou úrovních obtížnosti. Tento repozitář obsahuje výchozí **standardní úroveň obtížnosti**. Pokud máš méně času nebo s úkolem hodně bojuješ, můžeš zkusit lehčí variantu úkolu.
 
 ### Standardní obtížnost
@@ -59,9 +57,7 @@ Je úplně v pořádku, pokud si nakonec zvolíš jednodušší variantu (např.
 
 
 ## Jak si stáhnout podklady
-
 1. Udělej si **fork** této repozitáře - tím se ti úkol zkopíruje do tvého GitHub profilu.
 2. Forknutou repozitář si naklonuj k sobě na disk.
 
 Pokud nevíš, co je to **fork repozitáře** a jak ho provést, podívej se na [krátké video](https://youtu.be/K7rE3jRCjD4).
-
