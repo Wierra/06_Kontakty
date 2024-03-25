@@ -1,6 +1,6 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
 html { box-sizing: border-box; }
-*, :after, :before { box-sizing: inherit; }
+*, ::after, ::before { box-sizing: inherit; }
 
 body {
 	font-family: sans-serif;
@@ -16,20 +16,4 @@ Tablet  540px - 959px (čti jako 540px a víc)
 PC      960px a víc
 */
 
-h1,
-.jmeno{
-	text-align: center;
-}
-
-.jmeno{
-	border: 1px solid gray;
-	padding: 20px;
-	margin: 20px;
-	border-radius: 20px;
-}
-
-.jmeno img{
-	border-radius: 50%;
-	width: 30%;
-}
 
