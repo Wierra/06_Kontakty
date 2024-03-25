@@ -16,4 +16,30 @@ Tablet  540px - 959px (čti jako 540px a víc)
 PC      960px a víc
 */
 
+h1{
+	text-align: center;
+}
 
+.jmeno{
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 10px;
+}
+
+img{
+	border-radius: 50%;
+}
+
+@media screen and (min-width: 540px){
+	.kontejner{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.jmeno{
+		flex: 0 0 calc((100% - 40px) / 2);
+	}
+
+}
