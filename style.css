@@ -30,16 +30,29 @@ h1{
 
 img{
 	border-radius: 50%;
+	width: 50%;
 }
 
 @media screen and (min-width: 540px){
 	.kontejner{
 		display: flex;
 		flex-wrap: wrap;
+	}
+	.jmeno{
+		display: flex;
+		flex: 0 0 calc((100% - 40px) / 2);
+	}
+}
+
+@media screen and (min-width: 960px){
+	.kontejner{
+		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 	}
 	.jmeno{
-		flex: 0 0 calc((100% - 40px) / 2);
+		display: inline;
+		flex: 0 0 calc((100% - 40px) / 4);
+		margin: 0;
 	}
-
 }
