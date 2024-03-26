@@ -60,4 +60,7 @@ img{
 		flex: 0 0 calc((100% - 40px) / 4);
 		margin: 0;
 	}
+	.osoba{
+		text-align: center;
+	}
 }
