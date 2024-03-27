@@ -31,17 +31,20 @@ h1{
 
 img{
 	border-radius: 50%;
-	/* width: 50%; */
+	width: 7em;
+	height: 7em;
 }
 
 @media screen and (min-width: 540px){
 	.kontejner{
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	.jmeno{
 		display: flex;
-		flex: 0 0 calc((100% - 40px) / 2);
+		flex: 0 0 calc((100% - 20px) / 2);
+		align-items: center;
 	}
 	.osoba{
 		text-align: left;
