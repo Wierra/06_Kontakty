@@ -22,15 +22,16 @@ h1{
 
 .jmeno{
 	text-align: center;
+	/* font-size: 80%; */
 	border: 1px solid gray;
 	border-radius: 20px;
-	padding: 20px;
-	margin: 10px;
+	padding: 10px;
+	margin: 5px;
 }
 
 img{
 	border-radius: 50%;
-	width: 50%;
+	/* width: 50%; */
 }
 
 @media screen and (min-width: 540px){
@@ -46,7 +47,6 @@ img{
 		text-align: left;
 		padding-left: 10px;
 	}
-
 }
 
 @media screen and (min-width: 960px){
